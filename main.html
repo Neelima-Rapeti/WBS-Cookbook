@@ -19,24 +19,160 @@
   </head>
   <body>
     <section1>
-      <div class=".biryani">
-        <h1 class="text-danger">Chicken Biryani</h1>
-        <hr class="text-success" />
-        <p class="text-dark">
-          It is made with Indian spices, rice, and usually some type of meat
-        </p>
-        <div><img src="Images/photo-1599043513900-ed6fe01d3833.avif"</div>
-        <div class="biryani-bottom">
-          <div>
-            <h5>Neelima Rapeti</h5>
-            <p>A great one-pot rice dish that still tastes great</p>
-          </div>
-          <div>
-            <span>Prep:10mins</span><br />
-            <span>Cook:30mins</span>
+      <div class="d-flex flex-column p-3">
+        <div>
+          <h1 class="bg-success text-light text-center mt-3">
+            Chicken Biryani
+          </h1>
+          <hr class="text-success" />
+          <p class="text-dark">
+            It is made with Indian spices, rice, and usually some type of
+            meat.Chicken Biryani is a delicious savory rice dish that is loaded
+            with spicy marinated chicken, caramelized onions, and flavorful
+            saffron rice. For my Biryani, I simplify the order of operations,
+            while retaining the traditional layered approach to assembling it.
+          </p>
+
+          <div
+            id="carouselExampleIndicators"
+            class="carousel slide"
+            data-bs-ride="true">
+            <div class="carousel-indicators">
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="Slide 1"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="1"
+                aria-label="Slide 2"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="2"
+                aria-label="Slide 3"
+              ></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img
+                  src="Images/photo-1599043513900-ed6fe01d3833.avif"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="Images/photo-1631515243349-e0cb75fb8d3a.avif"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="Images/photo-1589302168068-964664d93dc0.avif"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
           </div>
         </div>
+
+        <div class="d-flex justify-content-around mt-3">
+
+          <div class="d-flex flex-column">
+            <span class="fw-bolder">Neelima Rapeti</span>
+            <span class="fw-ligther">one-pot rice dish</span>
+          </div>
+          <div class="">
+            <span>Prep:10mins</span><br />
+            <span>Cook:30mins</span></div>
+            <div><button onclick=alert('url') class="btn btn-outline-success">Share<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-share" viewBox="0 0 16 16">
+                <path d="M13.5 1a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zM11 2.5a2.5 2.5 0 1 1 .603 1.628l-6.718 3.12a2.499 2.499 0 0 1 0 1.504l6.718 3.12a2.5 2.5 0 1 1-.488.876l-6.718-3.12a2.5 2.5 0 1 1 0-3.256l6.718-3.12A2.5 2.5 0 0 1 11 2.5zm-8.5 4a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zm11 5.5a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3z"/>
+              </svg></button></div>
+            </div>
+        </div>
       </div>
+
+
+<!-- Ingredient Table for biryani -->
+
+      <!-- On tables -->
+      <table class="table table-primary table-striped table-hover table-borderless m-3">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">for Chicken</th>
+            <th scope="col">for Rice</th>
+            <th scope="col">for Biryani</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>Ginger-Garlic</td>
+            <td>Water</td>
+            <td>Ghee</td>
+           
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>Yogurt</td>
+            <td>Salt</td>
+            <td>Boiled-Rice</td>
+           
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td>Chicken-Masala</td>
+            <td>Basmati-Rice</td>
+            <td>Fired-Onions</td>
+           
+          </tr>
+          <tr>
+            <th scope="row">1</th>
+            <td>Oil</td>
+            <td>Cumin-seeds</td>
+            <td>saffron</td>
+           
+          </tr>
+        </tbody>
+      </table>
+      <table class="">
+        ...
+      </table>
+
     </section1>
     <section2></section2>
     <section3></section3>
