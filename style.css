@@ -12,3 +12,78 @@ flex-flow: row wrap;
 justify-content: space-around;
 
 }
+
+
+#Alex div{
+background-color: beige;
+}
+
+#imgPickle{
+
+    object-fit: fill;
+
+    
+}
+
+#imgPickle:hover,
+#frenchOmletImg:hover 
+{
+  opacity:0.6;
+  transition: .6s ease;
+  filter: alpha(opacity=60);
+  text-align:justify;
+  color:#000000;
+  font-size:20px;
+  font-weight:700;
+  font-family:"Times New Roman", Times, serif;
+  
+}
+.card-title{
+    font: 1.2em "Fira Sans", serif;
+
+}
+
+.table{
+
+    font: caption;
+}
+
+
+
+.container {
+    position: relative;
+    /* width: 50%; */
+  }
+  
+  .image {
+    opacity: 1;
+    /* display: block; */
+    /* width: 100%; */
+    height: auto;
+    transition: .5s ease-in-out;
+    backface-visibility: hidden;
+  }
+  
+  .middle {
+    transition: 2s ease-in-out;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .container:hover .image {
+    opacity: 0.3;
+  }
+  
+  .container:hover .middle {
+    opacity: 0.7;
+  }
+  
+  
+
+
+  
