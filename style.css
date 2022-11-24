@@ -13,8 +13,7 @@
 .img-size{
 
     height:300px;
-    width: 2
-    80px;
+    width: 280px;
     text-align: center;
 
      
@@ -92,6 +91,13 @@
     opacity: 0;
   }
   /* end of biryani reciepe by neelima */
+  /* common section main*/
+  
+  .img{
+    height: 30px;
+    width: 40px;
+    border-radius: 50px;
+  
   
   /* beggining of Alex sextion */
   
@@ -184,3 +190,4 @@ justify-content: space-around;
     padding: 0 !important;
   }
 /* end of Alex section */
+
