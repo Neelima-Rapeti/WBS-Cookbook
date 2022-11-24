@@ -110,12 +110,7 @@ justify-content: space-around;
 
 }
 
-#imgPickle{
 
-    object-fit: fill;
-
-    
-}
 
 #imgPickle:hover,
 #frenchOmletImg:hover 
@@ -182,5 +177,10 @@ justify-content: space-around;
 
   #Alex td{
     font: italic 1.2em "Fira Sans", serif;
+  
+  }
+
+  #imgContainer{
+    padding: 0 !important;
   }
 /* end of Alex section */
