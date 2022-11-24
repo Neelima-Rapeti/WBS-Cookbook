@@ -20,17 +20,76 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+<!-- Nav bar -->
+<header>
+  
+  <section header>
 
-    <section main>
+    <nav class="navbar navbar-expand-lg navbar-light bg-success">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img class="img" src="Images/photo-1516824467205-afa656d31a79.avif"/></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">About us</a>
+            </li>
+            
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Explore Reciepes
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Chicken Biryani</a></li>
+                <li><a class="dropdown-item" href="#">Bannana Bread</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Lacto-Fermented Dill Pickles</a></li>
+                <li><a class="dropdown-item" href="#">French Rolled Omellete</a></li>
+                <li><a class="dropdown-item" href="#">Pancake</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Follow us</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
 
         
     </section>
     <section>
+
+
+       
+  <h1 class="text-center m-3">Different Recipes from different Countries</h1>
+  <hr class="text-success">
+  <p class="m-3 p-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde, corrupti neque eos iste harum perspiciatis maxime quidem, est quos rerum in quia fuga ipsam inventore veritatis omnis! Ab, dignissimos provident.</p>
+  <p class="m-3 p-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde, corrupti neque eos iste harum perspiciatis maxime quidem, est quos rerum in quia fuga ipsam inventore veritatis omnis! Ab, dignissimos provident.</p>
+  <p class="m-3 p-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde, corrupti neque eos iste harum perspiciatis maxime quidem, est quos rerum in quia fuga ipsam inventore veritatis omnis! Ab, dignissimos provident.</p>
+
+  
+
+</section>
+<!-- end of navbar --></header>
+    
+    <section1>
+
         <!-- biryani reciepe -->
         
         <div class="d-flex flex-column p-3">
             <div>
-              <h1 class="bg-success text-light text-center mt-3">
+              <h1 class="bg-danger text-light text-center mt-3">
                 Chicken Biryani
               </h1>
               <hr class="text-success" />
@@ -87,7 +146,10 @@
             
               </div>
               
-                <div><button onclick=alert('my alert message') class="btn btn-outline-success">Share<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-share" viewBox="0 0 16 16">
+
+
+                <div><button onclick="alert('my url message')" class="btn btn-outline-success">Share<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-share" viewBox="0 0 16 16">
+
                     <path d="M13.5 1a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zM11 2.5a2.5 2.5 0 1 1 .603 1.628l-6.718 3.12a2.499 2.499 0 0 1 0 1.504l6.718 3.12a2.5 2.5 0 1 1-.488.876l-6.718-3.12a2.5 2.5 0 1 1 0-3.256l6.718-3.12A2.5 2.5 0 0 1 11 2.5zm-8.5 4a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zm11 5.5a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3z"/>
                   </svg></button></div>
                 </div>
@@ -140,7 +202,7 @@
           </tr>
         </tbody>
       </table>
-      <table class="">
+      <table>
         ...
       </table>
 
@@ -251,9 +313,139 @@
 
 
 
+
   </section>
   <!--end of banana bread recipe-->
-    <section id="Alex"></section>
+    
+
+  
+
+  
+    <section id="Alex">
+
+      <div id="Alex-card" class="card mb-3" style="max-width: 40%;">
+        <div class="row g-0">
+          <div class="col-md-4 container" id = "imgContainer">
+
+            <img id = "frenchOmletImg" src="https://i.pinimg.com/originals/4c/a4/8f/4ca48f9eee7b4d14d5f643c557067745.jpg" class="img-fluid rounded cover image" alt="...">
+            <div class="middle">
+              <div class="text"><h4 class="card-title">My French Rolled Omelette</h4></div>
+            </div>
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h4 class="card-title">French Rolled Omelette</h4>
+
+              <p class="card-text">Crack eggs into a small mixing bowl and add fresh herbs. Whisk with a metal fork until thoroughly blended and add to a pre-heated non-stick pan. Add butter, 
+                Begin rolling the omelette toward the outer edge of the pan, leaving about two inches unrolled toward the edge. 
+                Take the pan off the heat and ... Boun Apetite!</p>
+
+               <table class="table table-hover">
+                <thead>
+                  <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Basic Ingridients</th>
+                    <th scope="col">Optional Extras</th>
+                    
+                  </tr>
+                </thead>
+                <tbody class="table-group-divider">
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>3 large eggs</td>
+                    <td>1/4 cup chives, finely chopped</td>
+                    
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>2 tablespoons unsalted butter</td>
+                    <td> </td>
+                    
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
+                    <td>1/4 cup fresh herbs, finely chopped</td>
+                    <td colspan="2"> </td>
+                    
+                  </tr>
+                  <tr>
+                    <th scope="row">4</th>
+                    <td>pepper, salt.</td>
+                    <td> </td>
+                  </tr>
+                </tbody>
+              </table>
+              <button type="button" class="btn btn-outline-secondary" onclick="alert('window.location.pathname')">Share</button>
+              <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div id="Alex-card"  class="card mb-3" style="max-width: 40%;">
+        <div class="row g-0">
+          <div class="col-md-4 container" id = "imgContainer">
+            <img id = "imgPickle" src="https://tasteofartisan.com/wp-content/uploads/2021/08/Fermented-Dill-Pickles.jpg" alt="Avatar" class="image img-fluid rounded" style="width:100%">
+            
+            <div class="middle">
+              <div class="text"><h4 class="card-title">My Home Made Lacto-Fermented Dill Pickles</h4></div>
+            </div>
+
+            <!-- <img id = "imgPickle" src="https://tasteofartisan.com/wp-content/uploads/2021/08/Fermented-Dill-Pickles.jpg" class="img-fluid rounded" alt="..."> -->
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h4 class="card-title">Lacto-Fermented Dill Pickles</h4>
+              <p class="card-text">The cucumbers are preserved in brine with garlic and dill.</p>
+              <p class="card-text"><small class="text-muted">just put everything together wait a week or two and you got the magic</small></p>
+              <table class="table table-hover">
+                <thead>
+                  <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Veggies</th>
+                    <th scope="col">spices</th>
+                    <th scope="col">Equipment and other</th>
+                  </tr>
+                </thead>
+                <tbody class="table-group-divider">
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>Small Cucumbers</td>
+                    <td>Thyme</td>
+                    <td>Glass Jars</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>Onions</td>
+                    <td>Mustard seeds</td>
+                    <td>Water</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
+                    <td>Garlic Cloves</td>
+                    <td colspan="2">Pickling Spices</td>
+                    <td>    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">4</th>
+                    <td>dill</td>
+                    <td>Pickling Salt</td>
+                    <td> </td>
+                  </tr>
+                </tbody>
+              </table>
+              <button type="button" class="btn btn-outline-secondary" onclick="alert('my alert message')">Share</button>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+      
+
+      
+      </section>
+
     <section id="Artur"></section>
 
 
